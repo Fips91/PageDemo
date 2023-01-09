@@ -182,6 +182,7 @@
     margin-bottom: 20px;
     color: #fffdd0;
     margin: 0 auto;
+    text-align: center;
     
 
 }
@@ -203,8 +204,9 @@
 
 .hero__description{
     font-size: 30px;
-    margin: 0px auto;
+    margin: 20px auto;
     color: #fffdd0; 
+    text-align: center;
 }
 
 .hero__description span{
@@ -276,6 +278,7 @@
 
 .info__text {
     font-size: 20px;
+    margin: 20px 50px;
     padding: 20px 0;
 }
 
