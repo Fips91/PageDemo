@@ -59,7 +59,3 @@ const hideMobileMenu = () => {
 
 menuLinks.addEventListener('click',hideMobileMenu);
 navLogo.addEventListener('click',hideMobileMenu);
-
-exports.default = series(scssTask, jsTask, browserSyncServe, watchTask);
-
-exports.build = series(scssTask, jsTask);
