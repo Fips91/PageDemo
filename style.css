@@ -230,10 +230,13 @@
 @media screen and(max-width: 768px){
     .hero__heading{
         font-size: 3vw;
+        text-align: center;
         
     }
     .hero__description{
         font-size: 30px;
+        text-align: center;
+        padding: 20px 30px;
     }
 }
 
@@ -254,7 +257,7 @@
     z-index: 1;
     width: 100%;
     max-width: 1300px;
-    padding: 20px 50px;
+    padding: 20px 20px;
 }
 
 .main__content{
@@ -278,8 +281,8 @@
 
 .info__text {
     font-size: 20px;
-    margin: 20px 50px;
-    padding: 20px 0;
+    margin: 20px 0px;
+    
 }
 
 .main__btn {
@@ -295,6 +298,7 @@
     position: relative;
     transition: all 0.35s;
     outline: none;
+    align-items: center;
   }
   
   .main__btn a {
@@ -343,7 +347,7 @@
         align-items: center;
         justify-content: center;
         width: 100%;
-        margin: 0 auto;
+        margin: 0 30px;
         height: 90%;
     }
 
@@ -355,17 +359,19 @@
     .main__content{
         text-align: center;
         margin-bottom: 4rem;
+        padding: 30px 30px;
     }
 
     .main__content h1{
         font-size: 2.5rem;
         margin-top: 2rem;
+        padding: 30px 30px;
     }
 
     .main__content p{
         margin-top: 1rem;
         font-size: 1.5rem;
-        padding: 20px;
+        padding: 30px 30px;
     }
   }
 
@@ -382,6 +388,8 @@
 
     .main__content p{
         margin-top: 2rem;
+        padding: 0 20px;
+        text-align: center;
     }
 
     .main__btn{
@@ -684,13 +692,14 @@
 }
 
 .card h1{
-    margin: 8vw;
+    margin: 20px 20px;
     text-align: center;
 }
 
 .card p{
     font-weight: 400;
     text-align: center;
+    font-size: 20px;
 }
 
 .card span{
@@ -712,7 +721,7 @@
 
 
 .play {
-    font-size: 1.8rem;
+    font-size: 4vw;
     background: #11998e; 
     background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  
     background: linear-gradient(to right, #38ef7d, #11998e); 
