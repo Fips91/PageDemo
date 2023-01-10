@@ -182,8 +182,6 @@
     margin-bottom: 20px;
     color: #fffdd0;
     margin: 0 auto;
-    text-align: center;
-    
 
 }
 
@@ -205,8 +203,7 @@
 .hero__description{
     font-size: 30px;
     margin: 20px auto;
-    color: #fffdd0; 
-    text-align: center;
+    color: #fffdd0;   
 }
 
 .hero__description span{
@@ -229,14 +226,10 @@
 
 @media screen and(max-width: 768px){
     .hero__heading{
-        font-size: 3vw;
-        text-align: center;
-        
+        font-size: 3vw;    
     }
     .hero__description{
-        font-size: 30px;
-        text-align: center;
-        padding: 20px 30px;
+        font-size: 20px;   
     }
 }
 
@@ -281,8 +274,7 @@
 
 .info__text {
     font-size: 20px;
-    margin: 20px 0px;
-    
+    margin: 20px 30px;
 }
 
 .main__btn {
@@ -298,7 +290,6 @@
     position: relative;
     transition: all 0.35s;
     outline: none;
-    align-items: center;
   }
   
   .main__btn a {
@@ -329,7 +320,7 @@
   }
 
   .main__image--container{
-    text-align: center;
+    align-items: center;
   }
 
   img{
@@ -354,10 +345,10 @@
     .main__image--container{
         display: flex;
         justify-content: center;
+        align-items: center;
     }
 
     .main__content{
-        text-align: center;
         margin-bottom: 4rem;
         padding: 30px 30px;
     }
@@ -389,7 +380,6 @@
     .main__content p{
         margin-top: 2rem;
         padding: 0 20px;
-        text-align: center;
     }
 
     .main__btn{
@@ -397,6 +387,8 @@
         margin: 2.5rem 0;
     }   
   }
+
+    /*ServiceSection*/
 
   .services{
     background: #000000;
@@ -407,6 +399,7 @@
     height: 100%;
     padding: 1rem 0; 
   }
+
 
   .services h1 {
     background: #11998e; 
