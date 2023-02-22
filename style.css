@@ -307,6 +307,8 @@
     width: 0;
     height: 100%;
     background: #11998e;
+    background: -webkit-linear-gradient(to left, #38ef7d, #11998e);  
+    background: linear-gradient(to left, #38ef7d, #11998e); 
     transition: all 0.35s;
     border-radius: 4px;
   }
@@ -461,6 +463,13 @@
     margin-top: 16px;
     margin-bottom: 25px;
     }
+
+    .services__btn a {
+        position: relative;
+        z-index: 2;
+        color: #fffdd0;
+        text-decoration: none;
+      }
 
   .services__card button {
     color: #fffdd0;

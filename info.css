@@ -33,7 +33,7 @@
 }
 
 #text{
-    padding-left: 30px;
+    padding-left: 20px;
 }
 
 .main__frame{
@@ -55,7 +55,7 @@
     display: flex;
     flex-direction: column;
     width: 80%;
-    border-radius: 10px;
+    border-radius: 30px;
     display: flex;
     padding: 26px;
     justify-content: center;
@@ -95,7 +95,7 @@
 
 
 .play {
-    font-size: 4vw;
+    font-size: 20px;
     background: #11998e; 
     background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  
     background: linear-gradient(to right, #38ef7d, #11998e); 
@@ -124,6 +124,8 @@
     width: 0;
     height: 100%;
     background: #11998e;
+    background: -webkit-linear-gradient(to left, #38ef7d, #11998e);  
+    background: linear-gradient(to left, #38ef7d, #11998e); 
     transition: all 0.35s;
     border-radius: 4px;
   }
