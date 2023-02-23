@@ -19,17 +19,14 @@ function player(){
     }
     else {
         vid.pause();
-        text.innerHTML = "Schau es dir an";
+        text.innerHTML = "Play";
         state = true;
     }  
 }
 
 function ended(){
     vid.pause();
-    text.innerHTML = "Schau es dir an";
+    text.innerHTML = "Play";
     state = true;
 }
 
-exports.default = series(scssTask, jsTask, browserSyncServe, watchTask);
-
-exports.build = series(scssTask, jsTask);

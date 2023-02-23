@@ -21,15 +21,15 @@ const highlightMenu = () => {
     const infoMenu = document.querySelector('#info-page');
     const tutorialsMenu = document.querySelector('#tutorials-page');
     let scrollPos =window.scrollY
-    //console.log(scrollPos);
+    console.log(scrollPos);
 
 // ands the highlight-class to menu-items
-    if(window.innerWidth > 960 && scrollPos < 600){
+    if(window.innerWidth > 960 && scrollPos < 606){
         homeMenu.classList.add('highlight');
         infoMenu.classList.remove('highlight');
         return
     }
-    else if(window.innerWidth > 960 && scrollPos < 1400){
+    else if(window.innerWidth > 960 && scrollPos < 1432){
         infoMenu.classList.add('highlight');
         homeMenu.classList.remove('highlight');
         tutorialsMenu.classList.remove('highlight');
