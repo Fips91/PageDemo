@@ -9,6 +9,7 @@ var text = document.querySelector('.play').getElementsByClassName("text")[0];
 
 vid.addEventListener('ended', ended);
 but.addEventListener('click', player);
+vid.addEventListener('pause', pause);
 
 function player(){
 
@@ -28,5 +29,11 @@ function ended(){
     vid.pause();
     text.innerHTML = "Play";
     state = true;
+}
+
+function pause(){
+    text.innerHTML = "Play";
+    state = true;
+
 }
 
