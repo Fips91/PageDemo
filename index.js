@@ -24,18 +24,18 @@ const highlightMenu = () => {
     console.log(scrollPos);
 
 // ands the highlight-class to menu-items
-    if(window.innerWidth > 960 && scrollPos < 606){
+    if(window.innerWidth > 960 && scrollPos < 500){
         homeMenu.classList.add('highlight');
         infoMenu.classList.remove('highlight');
         return
     }
-    else if(window.innerWidth > 960 && scrollPos < 1432){
+    else if(window.innerWidth > 960 && scrollPos < 1039){
         infoMenu.classList.add('highlight');
         homeMenu.classList.remove('highlight');
         tutorialsMenu.classList.remove('highlight');
         return
     }
-    else if(window.innerWidth > 960 && scrollPos < 2345){
+    else if(window.innerWidth > 960 && scrollPos < 2000){
         tutorialsMenu.classList.add('highlight');
         infoMenu.classList.remove('highlight');
         return
