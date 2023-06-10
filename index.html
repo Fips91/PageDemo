@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to Robotics</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/7bb3542d28.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!--Navigation Bar-->
+    <nav class="navbar">
+        <div class="navbar_container">
+            <a href="#home" id="navbar__logo">How to Robotics</a>
+                <div class="navbar__toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="navbar__menu">
+                    <li class="navbar__item">
+                        <a href="#home" class="navbar__links" id="home-page">Home</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#info" class="navbar__links" id="info-page">Info</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#tutorials" class="navbar__links" id="tutorials-page">Tutorials</a>
+                    </li>
+                </ul>
+        </div>
+    </nav>
+
+<!--MainSite-->
+    <div class="hero" id="home">
+        <div class="hero__container">
+            <h1 class="hero__heading">Wie geht <span>Robotik</span>?</h1>
+            <p class="hero__description">Erfahre <span>Schritt</span> für <span>Schritt</span> wie du einen Roboterarm bauen kannst und lerne alle <span>Basics</span> im Bereich <span>Robotik!</span></p>
+            <button class="main__btn">
+                <a href="#tutorials">Tutorials</a>
+            </button>
+        </div>
+    </div>
+
+<!--Info-->
+    <div class="main" id="info">
+        <div class="main__container">
+            <div class="main__image--container">
+                <img src="images/Arm.png" alt="RoboArm">
+            </div>
+            <div class="main__content">
+                <h1>Was kann ich lernen?</h1> 
+                <p class="info__text">Ziel ist es alle nötigen Grundlagen im Bereich "Robotik" zu erlernen.
+                    Dazu gehört der Umgang mit Microcontrollern, das Programmieren in Python, stecken von elecktrischen Schaltungen und vieles mehr!
+                </p>
+                <p class="info__text">Alle Inhalte sind in kurzen Tutorials verpackt, in denen du alles lernst, was du auf dem Weg zu deinem ersten eigenen Roboter benötigst. 
+                </p>
+                <button class="main__btn">
+                <a href="info.html">mehr erfahren</a>
+            </button>
+            </div>
+        </div>
+    </div>
+
+    <!--Tutorials Section-->
+    <!---->
+    <div class="services" id="tutorials">
+        <h1>Tutorials</h1>
+        <div class="services__wrapper">
+            
+            <div class="services__card">
+                <h2>3D-Drucken</h2>
+                <div class="services__bg--img" style="background-image: url(images/3dDruck.jpg); background-size: 300px; "></div>
+                <p>Dreidemensionale Geometrien selbst drucken! </p>                   
+                <div class="services__btn"><button><a href="3D-Druck.html">Los gehts</a></button></div>    
+            </div>
+
+            <div class="services__card">
+                <h2>Breadboard</h2>
+                <div class="services__bg--img" style="background-image: url(images/Breadboard.jpg.webp); background-size: 300px; "></div>
+                <p>So steckst du eine elektrische Schaltung </p>                   
+                <div class="services__btn"><button><a href="BreadBoard.html">Los gehts</a></button></div>    
+            </div>
+
+            <div class="services__card">
+                <h2>Mikrocontroller</h2>
+                <div class="services__bg--img" style="background-image: url(images/Raspberry.jpg); background-size: 220px; "></div>
+                <p>Einführung Rasberry Pi Pico</p>                   
+                <div class="services__btn"><button><a href="PicoPi.html">Los gehts</a></button></div>    
+            </div>
+
+            <div class="services__card">
+                <h2>Programmierumgebung</h2>
+                <div class="services__bg--img" style="background-image: url(images/PythonCode.jpg); background-size: 300px; "></div>
+                <p>Wie du einen Microcontroller programmierst</p>                   
+                <div class="services__btn"><button><a href="Thonny.html">Los gehts</a></button></div>    
+            </div>
+
+            <div class="services__card">
+                <h2>Python</h2>
+                <div class="services__bg--img" style="background-image: url(images/python-code-sample-1024x550.jpg); background-size: 300px; "></div>
+                <p>Lerne die Python-Basics</p>                   
+                <div class="services__btn"><button><a href="Python.html">Los gehts</a></button></div>    
+            </div>
+
+            <div class="services__card">
+                <h2>UART</h2>
+                <div class="services__bg--img" style="background-image: url(images/UART.jpg); background-size: 220px; "></div>
+                <p>Sende Daten von Computer zum Controller</p>                   
+                <div class="services__btn"><button><a href="uart.html">Los gehts</a></button></div>    
+            </div>
+
+            <div class="services__card">
+                <h2>Graphic User Interface</h2>
+                <div class="services__bg--img" style="background-image: url(images/GUI.png); background-size: 250px; "></div>
+                <p>Dateneingabe durch das Interface</p>                   
+                <div class="services__btn"><button><a href="GUI.html">Los gehts</a></button></div>    
+            </div>
+
+            <div class="services__card">
+                <h2>Schrittmotoren</h2>
+                <div class="services__bg--img" style="background-image: url(images/Stepper.jpg); background-size: 220px; "></div>
+                <p>Was du wissen musst!</p>                   
+                <div class="services__btn"><button><a href="Stepper.html">Los gehts</a></button></div>    
+            </div>
+
+            <div class="services__card">
+                <h2>Motor bewegen</h2>
+                <div class="services__bg--img" style="background-image: url(images/Arduino-stepper-motor-circuit.png); background-size: 220px; "></div>
+                <p>Programmiere deine eigene Ansteuerung</p>                   
+                <div class="services__btn"><button><a href="Motorcontrol.html">Los gehts</a></button></div>    
+            </div>
+
+            <div class="services__card">
+                <h2>Du bist an der Reihe</h2>
+                <div class="services__bg--img" style="background-image: url(images/final.png); background-size: 220px; "></div>
+                <p>Was du jetzt machen kannst</p>                   
+                <div class="services__btn"><button><a href="Last.html">Los gehts</a></button></div>    
+            </div>       
+        </div>
+    </div>
+
+    <!--Fodder-->
+    <div class="footer__container">
+        <div class="footer__links">
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <h2>Übersicht</h2>
+                    <a href="#home">Home</a>
+                    <a href="#info">Info</a>
+                    <a href="#tutorials">Tutorials</a>
+                </div>
+            </div>
+        </div>
+        <section class="social__media">
+            <div class="social__media--wrap">
+                <div class="footer__logo">
+                    <a href="/" id="footer__logo">How to Robotics</a>
+                </div>
+                <p class="website__rights">© How to Robotics 2023. All rights reserved</p>
+                <div class="social__icons">
+                <a href="/" class="social__icon--link" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="/" class="social__icon--link" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="/" class="social__icon--link" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="/" class="social__icon--link" target="_blank"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+   
+
+
+
+
+    <script src="index.js"></script>
+    
+</body>
+</html>
